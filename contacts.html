@@ -5,7 +5,9 @@ body{margin:0;padding:0}
 #ss-form .styled-input-in {
   position: relative;
 }
-
+#ss-form .styled-input-in {
+    position: relative;
+}
 #ss-form .styled-input label {
   color: #999;
   position: absolute;
@@ -130,28 +132,33 @@ function myFunction() {
             <form action="https://docs.google.com/forms/d/e/1FAIpQLSfvHirjjVcH7oBJVDvb5ze2TOxRuQZQeUPamok1qR50Cebyuw/formResponse" id="ss-form" method="POST" onsubmit="fadeEffect.init('fade', 1);document.getElementById('fade').style.display = 'block'" target="hidden_iframe">
 					<div class="styled-input">
                         <div class="styled-input-in">
-								<input type="text" tabindex="0" aria-label="Name" name="entry.2044206605" value="" id="entry.2044206605" dir="auto" title="" required="required">
-                                <label>Name</label>
+					<input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Email Anda" name="emailAddress" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                                <label>Email</label>
                                 <span class="span1"></span><span class="span2"></span>
 						</div>
 					</div>
 					<div class="styled-input">
                         <div class="styled-input-in">
-								<input type="email" tabindex="0" aria-label="Email" name="entry.300133120" value="" id="entry.300133120" dir="auto" title="Must be a valid email address" required="required">
-                                <label>Email</label>
+				<input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Web Title" aria-describedby="i.desc.357815233 i.err.357815233" name="entry.1246903249" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                                <label>Web Title</label>
+                                <span class="span1"></span><span class="span2"></span>
+						</div>
+					</div>  <div class="styled-input-in">
+	<input type="url" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="URL" aria-describedby="i.desc.950954085 i.err.950954085" name="entry.903610105" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                                <label>Web Url</label>
                                 <span class="span1"></span><span class="span2"></span>
 						</div>
 					</div>
 					<div class="styled-input wide">
                         <div class="styled-input-in">
-								<textarea data-rows="1" tabindex="0" aria-label="Comments" name="entry.2002414925" id="entry.2002414925" dir="auto" aria-required="true" required="required"></textarea>
-                                <label>Message</label>
+		<input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Web Description" aria-describedby="i.desc.1285485432 i.err.1285485432" name="entry.1624340967" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                                <label>Web Descriptions</label>
                                 <span class="span1"></span><span class="span2"></span>
 						</div>
 					</div>
-					<input name="draftResponse" type="hidden" value="[,,&quot;-2774995986492361668&quot;]">
+					<input name="draftResponse" type="hidden" value="[null,null,&quot;1799019377013246805&quot;]">
                     <input name="pageHistory" type="hidden" value="0">
-                    <input name="fbzx" type="hidden" value="-2774995986492361668">
+                    <input name="fbzx" type="hidden" value="1799019377013246805">
 					<button type="submit" name="submit" class="btn btn-default">Send</button>
 					</div>
 			</form>
